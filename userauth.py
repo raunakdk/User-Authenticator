@@ -60,7 +60,7 @@ print(check_password_strength(generated_password))
 #This script uses the random and string modules to generate a random string of 10 characters,
 # consisting of both letters and digits. The input() function is used to ask the user to type the generated string,
 # and their input is compared to the generated string using an if statement. If the input matches the generated string,
-# the user is authenticated; otherwise, authentication fails.
+# the user is authenticated; otherwise, authentication fails
 
 
 
