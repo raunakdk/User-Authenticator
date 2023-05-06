@@ -27,7 +27,7 @@ username = input("Enter your username: ")
 valid_username = "RaunakDK"
 
 
-#  Here we check if the entered credentials match
+#  Here we check if the entered credentials 
 if username == valid_username:
     print("Username Authentication Successful, Username verified")
 else:
