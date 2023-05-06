@@ -8,7 +8,6 @@ def authenticate_user():
     rand_string = ''.join(random.choices(string.ascii_letters + string.digits, k=6))
     print("Please type the following Captcha for Authentication: " + rand_string)
 
-    #  To Ask user to input the generated string
     user_input = input()
 
     # Compare user input to the generated string
