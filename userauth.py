@@ -10,7 +10,7 @@ def authenticate_user():
 
     user_input = input()
 
-    # Compare user input to the generated string
+    # Compare user input to the generated strinGS
     if user_input == rand_string:
         print("Captcha Verified, Authentication successful! ")
     else:
